@@ -1,9 +1,9 @@
-var connectionString = "postgres://zndrgpubihikgg:146c1377c6b8a39a937bc5f2795d5ce5ec8d5db478dfc8e162cb2eb379e83fc2@ec2-54-247-74-131.eu-west-1.compute.amazonaws.com:5432/d3gj63qhlmojhs";
+var connectionString = "postgres://bsytgkcjhiejcw:0357afb17e6e302a4cf676592f8bcc88443affac85e1a9c88243e38e69d0061a@ec2-79-125-119-244.eu-west-1.compute.amazonaws.com:5432/daj2jh3uums4hj";
 
 var express = require('express');
 var app = express();
-const bodyParser = require('body-parser');
-var jsonParser = bodyParser.json();
+/*const bodyParser = require('body-parser');
+var jsonParser = bodyParser.json();*/
 
 app.set( 'port', ( process.env.PORT || 5000 ));
 
