@@ -33,7 +33,7 @@ app.get("/", (req, res)=> {
 
 });
 
-app.get("/all-records", (req, res)=> { 
+app.get("/records", (req, res)=> { 
     
   //connect to DB Postgres
   const { Client } = require('pg');
