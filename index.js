@@ -26,7 +26,7 @@ app.get("/", (req, res)=> {
       res.status(400).send(err);
       client.end();
     } else {
-      res.status(200).send(result.rows);
+      res.status(200).send('Count of records => ' + JSON.stringify(result.rows));
     }
     client.end();
   })
@@ -48,7 +48,7 @@ app.get("/records", (req, res)=> {
       res.status(400).send(err);
       client.end();
     } else {
-      res.status(200).send(result.rows);
+      res.status(200).send('All records => ' + JSON.stringify(result.rows));
     }
     client.end();
   })
